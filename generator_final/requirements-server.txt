@@ -1,0 +1,15 @@
+# Sketch-to-real server (TensorFlow). Requires a Python version TensorFlow ships wheels for.
+# Python 3.14+ (and often 3.13 on some platforms): NO tensorflow wheels -> pip shows "No matching distribution".
+# Use Python 3.10, 3.11, or 3.12 in a separate venv (see setup-sketch2real.ps1).
+#
+# Example (after venv is active):
+#   python -m pip install -U pip wheel
+#   pip install -r requirements-server.txt
+
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+tensorflow>=2.15.0,<2.22.0
+tensorflow-addons>=0.22.0
+numpy>=1.23.0
+pillow>=9.5.0
