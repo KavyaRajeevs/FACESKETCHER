@@ -1,4 +1,6 @@
-## FaceSketcher - Run Guide
+## FaceSketcher - Words become Faces
+<img width="1706" height="877" alt="image" src="https://github.com/user-attachments/assets/f50dc9c4-f481-4f0c-aec7-a59da401d9d3" />
+
 
 This project currently runs with three backend services and one frontend:
 
